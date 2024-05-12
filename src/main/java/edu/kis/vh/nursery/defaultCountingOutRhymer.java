@@ -11,10 +11,6 @@ public class defaultCountingOutRhymer {
         return total;
     }
 
-    public void setTotal(int total) {
-        this.total = total;
-    }
-
     private int total = TOTAL_STARTING_NUMBER;
 
     public void countIn(int in) {
